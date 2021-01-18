@@ -531,7 +531,7 @@ public class Slidr extends FrameLayout {
 
         this.barY = 0;
         if (settings.drawTextOnTop) {
-            barY += DISTANCE_TEXT_BAR * 2;
+            barY += DISTANCE_TEXT_BAR;
             if (isRegions()) {
                 float topTextHeight = 0;
                 final String tmpTextLeft = formatRegionValue(0, 0);
