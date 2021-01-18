@@ -52,12 +52,12 @@ import static android.view.MotionEvent.ACTION_UP;
 
 public class Slidr extends FrameLayout {
 
-    private static final float DISTANCE_TEXT_BAR = 10;
-    private static final float BUBBLE_PADDING_HORIZONTAL = 15;
-    private static final float BUBBLE_PADDING_VERTICAL = 10;
+    private static final float DISTANCE_TEXT_BAR = 8;
+    private static final float BUBBLE_PADDING_HORIZONTAL = 8;
+    private static final float BUBBLE_PADDING_VERTICAL = 8;
 
     private static final float BUBBLE_ARROW_HEIGHT = 10;
-    private static final float BUBBLE_ARROW_WIDTH = 20;
+    private static final float BUBBLE_ARROW_WIDTH = 15;
     boolean moving = false;
     private Listener listener;
     private BubbleClickedListener bubbleClickedListener;
